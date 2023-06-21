@@ -1,0 +1,479 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+nav {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(38,43,46);
+    position: fixed;
+    overflow: hidden;
+    z-index: 9999;
+    
+}
+
+nav #menuBtn {
+    display: none;
+}
+
+nav .menuBtn {
+    float:left;
+    margin-right:2rem;
+    line-height: 50px;
+    display: none;
+    margin-top: 3rem;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    
+    
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(m.jpg);
+    background-position:center;
+    background-size: cover;
+    color: rgb(222, 217, 218);
+    font-size: 30px;
+    overflow: hidden;
+
+    
+}
+
+
+
+.headerParent {
+    display: flex;
+    align-items: center;
+    height: 100vh; 
+     
+}
+
+.headerParent h1  {
+    font-size: 90px;
+    text-align: center;
+    margin-left: 25.5rem; 
+    letter-spacing: 0.8rem;  
+    font-family:cursive;
+    color: rgb(211, 211, 211);
+}
+
+
+
+.headerParent h2 {
+    text-align: center;
+    margin-left: 19rem;
+    letter-spacing: 7px;
+    word-spacing: 1rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.parent {
+   display: flex;
+    justify-content: space-between;
+}
+
+.parent img {
+    border-radius: 100%;
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    
+}
+.parent h3 {
+    color: rgb(151, 146, 146);
+}
+
+.menu {
+    margin-top: 1rem;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-left: 1.5rem;
+}
+
+.menu ul li a {
+    color: rgb(175, 169, 169);
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    border-radius: 4px;
+}
+
+.menu ul li a:hover {
+    background-color:#1d3537;
+}
+
+@keyframes harfAnimasyonu {
+    0% {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .tektek-harf {
+    display: inline-block;
+    animation: harfAnimasyonu 4s ease-in-out both;
+    margin-left: 25rem;
+    letter-spacing: 1rem;
+    font-family:serif;
+    font-weight:500;
+  }
+  
+
+  /**********İKİNCİ SAYFA**********/
+  /**********İKİNCİ SAYFA**********/
+
+ 
+
+.about {
+    width: 100%;
+    height: 85vh;
+    background-color: rgb(24,37,42);
+    background-size: cover;
+    
+ }
+
+ .about .card {
+    margin-left: 5rem;
+ }
+
+ .card {
+    width: 30%;
+ }
+
+ .cardParent {
+    display: flex;
+    justify-content: space-between;
+    
+ }
+
+ .cards {
+    padding: 2rem; 
+    text-align: center;
+    }
+    
+
+ .card h2 {
+    color:rgb(157, 157, 157);
+    font-size: 22px;
+    line-height: 2.8rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    
+ }
+
+ .bi{
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+}
+
+
+.İconCircle::after {
+    content: "KARİYER HEDEFİM";
+    margin-left: 1rem;
+    font-size: 25px;
+    color: aliceblue;
+    
+    
+}
+
+hr {
+    color: rgb(109, 108, 110); /* Çizgi rengi */
+    border: none; /* Çizgi kenarlığı */
+    height: 1.2px; /* Çizgi yüksekliği */
+    background-color: rgb(150, 142, 142); /* Çizgi arka plan rengi */
+  }
+
+                       /**!!**/
+                       /**!!**/
+
+
+  .İconCircle1::after {
+    content: "HAKKIMDA";
+    font-size: 25px;
+    color: aliceblue;
+    margin-left: 1rem;
+  }
+
+  .card  li {
+   color: rgb(220, 219, 219);
+   font-size: 1.7rem;
+   margin-top: 1.2rem;
+   text-align: left;
+  }
+
+.card h3 {
+    color: rgb(153, 153, 153);
+    font-size: 1.4rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    word-spacing: 1rem;
+}
+
+.card p {
+    color: rgb(168, 168, 168);
+    font-size: 1.2rem;
+    text-align: left;
+    word-spacing: 1rem;
+
+}
+  
+.yatayçizgi {
+    border: none;
+    border-top: 1px solid rgb(64, 64, 64);
+    margin-right: 80px;
+    height: 0.5px;
+    width: 15rem;
+    margin: 1rem;
+}
+
+     /************ÜÇÜNCÜ SAYFA************/
+     /************ÜÇÜNCÜ SAYFA************/
+
+
+
+
+.anasayfa {
+    width: 100%;
+    height: 88vh;
+    background-color: rgb(24,37,42);
+}
+
+.kartkapsayıcı {
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+
+.kart {
+    width: 30%;
+    margin-left: 14.3rem; 
+    margin-top: 8.7rem;
+}
+
+
+
+.icon::after {
+    content: "BECERİLER";
+    margin-left: 1rem;
+    font-size: 25px;
+    color: rgb(214, 214, 214); 
+}
+
+.kart li {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: rgb(153, 153, 153);
+    text-align: left;
+}
+
+.icon1::after {
+    content:"HOBİLER";
+    margin-left: 1rem;
+    font-size: 25px;
+    color: rgb(214, 214, 214); 
+}
+
+.ikon .bi {
+    font-size: 1.5rem;
+   
+}
+
+.ikon::after {
+    content:"Kitap Okumak";
+    margin-left: 1rem;
+    font-size: 25px;
+    color: rgb(153, 153, 153);
+    }
+
+.kart .ikon {
+    margin-top: 2rem;
+}
+
+.ikon1 .bi {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+
+.ikon1::after {
+    content: "ElektroGitar Çalmak";
+    margin-left: 1rem;
+    color: rgb(153, 153, 153);
+    font-size: 25px;
+    margin-top: 1rem;
+}
+
+.ikon2::after {
+    content: "Yazılım ile ilgilenmek";
+    margin-left: 1rem;
+    color: rgb(153, 153, 153);
+    font-size: 25px;
+}
+ 
+.ikon2 .bi {
+    font-size: 1.5rem;
+    
+}
+
+.ikon3 .bi{
+      font-size: 1.5rem;
+}
+
+.ikon3::after {
+    content: "İngilizce Öğrenmek";
+    margin-left: 1rem;
+    color: rgb(153, 153, 153);
+    font-size: 25px;
+}
+
+.ikon4::after {
+    content: "Film İzlemek";
+    margin-left: 1rem;
+    color: rgb(153, 153, 153);
+    font-size: 25px;
+}
+
+.ikon4 .bi {
+    font-size: 1.5rem;
+}
+
+.kartkapsayıcı .ikon, .ikon1, .ikon2, .ikon3, .ikon4 {
+    margin-top: 2rem;
+}
+
+/***************DÖRDÜNCÜ SAYFA*****************/
+/***************DÖRDÜNCÜ SAYFA*****************/
+
+  
+.navbarr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    background-color:rgb(24,37,42);
+  }
+  
+  .navbar-content {
+    text-align: center;
+  }
+  
+  .navbar-text {
+    font-size: 70px;
+    font-family:initial;
+    letter-spacing: 1.5rem;
+    color: rgb(218, 218, 218);
+  }
+  
+
+.ana {
+    width: 100%;
+    height: 70%;
+    background-color: rgb(24,37,42);
+}
+
+.ikon5::after {
+    content: "+90 (539) 395 7553";
+    color: rgb(153, 153, 152);
+    font-size: 25px;
+    margin-left: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ikon5 .bi {
+    font-size: 40px;
+ }
+
+.ikon6::after {
+    content: "muko388grgn@gmail.com";
+    color: rgb(153, 153, 153);
+    font-size: 25px;
+    margin-left: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 2rem;
+}
+
+.ikon6 .bi {
+    font-size: 40px;
+ }
+
+ .ikon7::after {
+    content: "_mukadderr_";
+    color: rgb(153, 153, 153);
+    font-size: 25px;
+    margin-left: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 2rem;
+ }
+
+ .ikon7 .bi {
+    font-size: 40px; 
+ }
+
+.ikon8::after {
+    content: "Mukadder Gergin";
+    color: rgb(153, 153, 153);
+    font-size: 25px;
+    margin-left: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 2rem;
+    }
+
+.ikon8 .bi {
+        font-size: 40px; 
+     }
+
+.kart- .ikon6, .ikon7, .ikon8 {
+    margin-top: 2.5rem;
+}
+
+.kartkaps .ikon5, .ikon6, .ikon7, .ikon8 {
+    margin-left: 20rem;
+}
+
+@media (max-width: 667px) {
+    nav .menuBtn {
+        display: initial;
+    }
+    .menu ul  {
+        position: fixed;
+        background-color:#1d3537;
+        width: 100%;
+        height: 65vh;
+        top: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.5s;
+        left:0;
+        
+    }
+
+    .menu ul li {
+        display: block;
+        min-width: 50%;
+        line-height: 8rem;
+        text-align: center;
+
+    }
+
+    .menu ul li a {
+        display: block;
+        font-size: 3rem;
+        color: white;
+    }
+}
